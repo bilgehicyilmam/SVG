@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    margin-top: 2%;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.left {
+    left: 5%;
+}
+
+.right {
+    right: 3%;
+}
+
+.vectors {
+    padding: 0;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-left: 2%;
+    letter-spacing: 4px;
+    color: white;
+    font-size: 20px;
+}
+
+.buttons {
+    padding: 0;
+    margin-top: 3%;
+    box-sizing: border-box;
+    margin-left: 23%;
+}
+
+.button {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.textbox {
+    background-color: #E8E8E8;
+    width: 50%;
+    height: 50%;
+    border: 15px solid lightskyblue;
+    padding: 50px;
+    margin-left: 25%;
+    margin-top: 0;
+}
+
+#Group1, #Group2, #Group3, #Group4, #Group5, #Group6, #Group7, #Group8, #Group9, #Group10, #Group11, #Group12{
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+#Addition, #Subtraction, #Multiplication{
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes forward {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes backward {
+    0% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 1000;
+    }
+}
+
+@keyframes replay {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dashoffset: 1;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.container .progressbar .step{
+    width: 20%;
+    margin-right: 1%;
+}
+
+.progressbar .step .bullet {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 2px solid lightpink;
+    display: inline-block;
+}
+
+.progressbar .step .bullet span {
+    position: absolute;
+    top: 18%;
+    right: 32%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 65px;
+    background-color: #808080;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li{
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.navigation{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid darkgray;
+}
+
+
+
+
