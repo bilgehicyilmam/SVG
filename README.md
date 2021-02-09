@@ -23,3 +23,5 @@ There is a progress bar in pink color on the top left part of the page. It shows
 
 There is navigation bar on the top of the page. By clicking on the numbers, the user can navigate to that specific SVG. For example, when the user is navigating with Forward button, s/he can jump to any SVG by clicking on these numbers, and if s/he wants to move forward, the system goes forward from here.
 On the other hand, the navigation bar allows the user to replay that specific SVG by clicking on these numbers.
+
+![Screen Shot 2021-02-09 at 16 18 50](https://user-images.githubusercontent.com/61224886/107369193-83280500-6af2-11eb-9b4b-912e4c29b768.png)
